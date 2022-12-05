@@ -49,7 +49,7 @@ public class WorldStates
         states.Remove(key);
     }
 
-    public void SetState(stringk key, int value)
+    public void SetState(string key, int value)
     { 
         if(states.Containskey(key))
            states[key] =value;
